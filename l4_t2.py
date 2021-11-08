@@ -1,7 +1,7 @@
-from math import sqrt, tan , cos, pi
+from math import sqrt, tan , cos, pi, radians
 #import math
 from l4_t1 import G, k, e, g, h
-b = 30
+b = radians(30)
 a = pi / 3
 H = 100
 V = sqrt((g*H*(tan(b)**2))/(2*(cos(a)**2)*(1-tan(b)*tan(a))))
