@@ -5,6 +5,7 @@ m = 5
 
 arr = np.zeros((n,m))
 #  print(f"element:[{i},{j}] = {value}")
+#np.ndenumerate подходит к каждому элементу
 for (i,j), value in np.ndenumerate(arr):
 
   result = math.sin(n*(i+1) + m*(j+1))
