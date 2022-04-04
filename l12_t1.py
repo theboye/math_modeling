@@ -38,7 +38,7 @@ plt.scatter(cx, cy)
 for i in range(len(cx)):
 	
 	plt.arrow(cx[i], cy[i], dvx[i], dvy[i])
-
+#DSAD
 plt.scatter(vx, vy)
 plt.axis('equal')
 plt.show()
