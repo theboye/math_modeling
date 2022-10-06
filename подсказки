@@ -11,3 +11,4 @@ print(my_func(3,4))       #5
 стандартные значения можно менять вот так :
 print(my_func(a=5)) 
 ms - marker size
+ord(sp) - показывает ASCII код символов
